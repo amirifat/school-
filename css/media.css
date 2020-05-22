@@ -1,0 +1,66 @@
+
+@media (max-width: 992px){
+    .back-section .backimg {
+    padding: 0;
+}
+}
+
+@media (max-width: 767px){
+    .texty h4, .mediatext h4 {
+    text-align: center;
+    margin-bottom: 50px
+    }.cities {
+    padding-top: 0;
+}.align-items-center {
+    align-items: normal !important;
+}.coloured .row {
+    align-items: center;
+    justify-content: center;
+}.blueyear, .prurpleyear, .greenyear {
+    margin-bottom: 30px;
+}.reviews-section .reviews {
+    margin-bottom: 50px;
+}footer .footprints {
+    margin-bottom: 5px;
+}footer .maker {
+    margin-top: 5px;
+}
+}
+
+@media (max-width: 575px){
+    .brand img {
+    width: 120px;
+}.contact p, .program-section p, .mams-blue p, .mams-green p, .blueyear p {
+    font-size: 14px;
+    line-height: 20px;
+}.back-section .backimg {
+    margin-top: 50px;
+}.mams-blue .row, .mams-green .row {
+    align-items: center;
+}.maams-section .mams-green, .maams-section .mams-blue {
+    padding: 10px;
+    margin: 0;
+}.blueyear, .prurpleyear, .greenyear {
+    margin: 0px 50px 30px;
+}.cities-center {
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+}
+
+@media (max-width: 420px){
+    .preschol h3, .preschol h4, .regi-section h2, .maams-section h4{
+        font-size: 20px;
+    }
+    .preschol h5, .regi-section h4 {
+    font-size: 14px;
+}.preschol .btn-custom, .regi-section .btn-custom, .program-section .btn-custom, .media-section .btn-custom {
+    padding: 4px 12px;
+    font-size: 12px;
+}.program-section h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+}

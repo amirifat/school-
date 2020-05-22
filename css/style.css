@@ -1,0 +1,472 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    list-style: none;
+    margin: 0;
+}
+
+header{
+    background: white;
+    padding: 15px 0;
+}
+header .brand{}
+.brand img{
+    width: 150px;
+}
+header .contact{
+    background: #39B2CE;
+    text-align: center;
+    float: right;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+.contact p{
+    margin: 0;
+    color: #fff;
+}
+.contact p i{
+    color: #125665;
+    margin-right: 2px;
+    transform: rotate(15deg);
+}
+.back-section{
+    background-image: url(../images/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.back-section .preschol{
+    text-align: center;
+}
+.preschol h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+}
+.preschol h3 span{
+    font-weight: 600;
+    color: #ff0000;
+}
+.preschol h4{
+    font-weight: 400;
+    color: #37bdda;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 20px;
+}
+.preschol h5{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+.preschol h5 span{color: red;padding: 0 2px;}
+.preschol img{
+    width: 100px;
+    margin: 25px 0;
+}
+.preschol li{}
+.preschol .btn-custom,.regi-section .btn-custom{
+    background-color: red;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.preschol .btn-custom:hover,.regi-section .btn-custom:hover,.program-section .btn-custom:hover{
+    opacity: .8;
+}
+.back-section .backimg{
+    padding: 0 50px;
+}
+
+.regi-section{
+    text-align: center;
+    padding: 50px 0;
+}
+.regi-section h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #272727;
+    font-size: 30px;
+    line-height: 22px;
+}
+.regi-section h2 span{
+    color: red;
+}
+.regi-section h4{
+    color: #272727;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.regi-section h4 span{
+    color: #37bdda;
+    font-weight: 600;
+}
+.program-section{}
+.program-section h2{
+    margin-top: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.program-section p{
+    line-height: 24px;
+    margin: 15px 50px 25px;
+}
+.program-section .imaging{}
+.imaging img{}
+.program-section .btn-custom{
+    background-color: red;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 50px;
+}
+.butcss{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.butcss .blue{
+    background: #39B2CE;
+    padding: 20px;
+    cursor: pointer;
+}
+.blue h5,.yellow h5{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: #fFF;
+}
+.blue p,.yellow p{
+    margin: 0;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #fff;
+}
+.butcss .yellow{
+    background: #f78d26;
+    padding: 20px;
+    cursor: pointer;
+}
+.locate{}
+.locate img{
+    width: 70px;
+}
+.texty{}
+.texty h4{
+    font-style: italic;
+    color: red;
+    font-weight: 600;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.texty h4 span{
+    font-weight: 400;
+    color: #39b2ce;
+}
+.cities{
+    padding: 50px 0;
+}
+.cities-center{
+    border: 5px solid #eae8e8;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+}
+.cities img{
+    max-width: 100px;
+    z-index: -1;
+}
+.cities h5{
+    margin: 0;
+    color: #39b2ce;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.cities h5 span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.media-section{
+    padding: 20px 0;
+}
+.media-section .media{}
+.media img{
+    width: 70px;
+}
+.media-section .mediatext{
+}
+.mediatext h4{
+    font-style: italic;
+    color: red;
+    font-weight: 600;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.mediatext h4 span{
+    font-weight: 400;
+    color: #39b2ce;
+}
+.media-section li{
+    text-align: center;
+    text-align: center;
+}
+.media-section .btn-custom{
+    background-color: #39b2ce;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-top: 30px;
+}
+.media-section .btn-custom:hover{
+    opacity: .8;
+}
+.logoimg img{
+    cursor: pointer;
+}
+
+.maams-section{
+    padding: 50px 0;
+}
+.maams-section h4{
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.maams-section h4 span{
+    font-weight: 400;
+    color: #39b2ce;
+}
+.maams-section .mams-blue{
+    padding: 25px;
+    background: #39b2ce;
+    border-radius: 25px;
+    margin: 0 20px;
+}
+.maams-section .mams-green{
+    padding: 25px;
+    background: #9dab28;
+    border-radius: 25px;
+    margin: 0 20px;
+}
+.mams-blue .row, .mams-green .row{}
+.mams-blue img,.mams-green img{
+    border-radius: 50%;
+}
+.mams-blue h5,.mams-green h5{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 15px 0;
+}
+.mams-blue p,.mams-green p{
+    color: #fff;
+    line-height: 24px;
+    margin-left: 25px !important;
+    margin: 0;
+}
+.coloured .row{}
+.awards{}
+.awards img{
+    width: 70px;
+}
+.awards-text{}
+.awards-text h4{
+    font-style: italic;
+    font-family: cursive;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+}
+.blueyear{
+    border: 2px solid rgba(57, 178, 206, .6);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: default;
+}
+.blueyear:hover{
+    background: #39b2ce;
+}
+.blueyear:hover.blueyear h1,.blueyear:hover.blueyear p{
+    color: #fff;
+
+}
+.prurpleyear{
+    border: 2px solid rgba(88, 34, 183, .6);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: default;
+}
+.prurpleyear:hover{
+    background: #552ab9;
+}
+.prurpleyear:hover.prurpleyear h1,.prurpleyear:hover.prurpleyear p{
+    color: #fff;
+
+}
+.greenyear{
+    border: 2px solid rgba(76, 175, 80, .6);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: default;
+}
+.greenyear:hover{
+    background: #4caf50;
+}
+.greenyear:hover.greenyear h1,.greenyear:hover.greenyear p{
+    color: #fff;
+
+}
+.blueyear h1{
+    color: #39b2ce;
+    font-size: 42px;
+}
+.prurpleyear h1{
+    color: #5822b7;
+    font-size: 42px;
+}
+.greenyear h1{
+    color: #4CAF50;
+    font-size: 42px;
+}
+.blueyear h5,.prurpleyear h5,.greenyear h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+.blueyear p{
+    margin: 0;
+    font-size: 15px;
+    color: #39b2ce;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.prurpleyear p{
+    margin: 0;
+    font-size: 15px;
+    color: #5822b7;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.greenyear p{
+    margin: 0;
+    font-size: 15px;
+    color: #4caf50;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.reviews-section{}
+.reviews-section .reviews{
+    margin-bottom: 50px;
+}
+.reviews-section h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #3c5a99;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #f2f4f3;
+}
+footer .footprints{}
+.footprints p{
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+}
+.footprints p a{
+    transition: 0.3s ease;
+}
+footer .icons{}
+.icons p{
+    margin: 0;
+    color: #000;
+}
+.icons ul {}
+.icons ul li{
+    margin: 0 5px;
+}
+.icons ul li a{
+    font-size: 16px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    padding: 0;
+}
+.icons ul li a:hover{}
+footer .maker{}
+.maker p{
+    text-transform: capitalize;
+    color: #000;
+    margin: 0;
+}
+.maker span{
+    width: 1px;
+    display: inline-block;
+    height: 10px;
+    background: black;
+    margin: 0 5px;
+}
+.maker p a{
+    color: red;
+    transition: 0.3s ease;
+}
+
+/*-----------------slick-------------*/
+
+.slick-initialized .slick-slide {
+    outline: none;
+}
+.slick-dots li button:before {
+    font-size: 50px;
+    opacity: 1;
+    color: #39b2ce;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #9dab28;
+}
